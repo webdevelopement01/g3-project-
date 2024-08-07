@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 4oo;
+  font-style: normal;
+}
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark 03 */
+.text-light-grat{
+    color: #727272;
+}
+/* background color */
+.bg-light{
+  background-color:   rgba(225, 144, 14, 0.1);
+
+}
+.btn-primaary{
+    padding: 20px 25px;
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+/* header style */
+
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1144px;
+    margin: 0 auto;
+
+}
+
+/* Banner releated style */
+.banner-continer{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 700;
+    font-weight: 3rem;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* responsive design madia */
+
+@media screen and (max-width: 556px) {
+    .navbar,.nav-link{
+        flex-direction: column;
+    }
+    
+}
+
+
+/* Main Activity Design  */
+.mainactivity{
+    display: inline-flex; 
+    margin-top: 50px;
+
+}
+.main-title{
+    color: #727272;
+}
+.main-title2{
+    color: tomato;
+    font-style: bold;
+}
+.span-class{
+    color: black;
+}
+.main-decp{
+    font-size: 16px;
+}
+.team-image{
+    /* display: inline; */
+   
+}
+
